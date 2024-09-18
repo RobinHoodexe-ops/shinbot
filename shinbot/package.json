@@ -1,0 +1,38 @@
+{
+ 
+  "name": "shinbot",
+ 
+  "version": "1.0.0",
+ 
+  "type": "module",
+ 
+  "scripts": {
+ 
+   
+  "start": "node index.mjs",
+ 
+   
+  "build": "tsc"
+ 
+  },
+ 
+  "dependencies": {
+ 
+   
+  "discord.js": "^14.16.2",
+ 
+   
+  "dotenv": "^16.4.5",
+ 
+   
+  "undici": "^6.19.8"
+ 
+  },
+ 
+  "devDependencies": {
+ 
+   
+  "@types/node": "^22.5.5"
+ 
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES2020", // Use ES2020 or higher
+      "module": "ESNext", // Use ESNext or CommonJS based on your needs
+      "moduleResolution": "node", // Set module resolution to node
+      "baseUrl": ".", // Base directory for resolving non-relative module names
+      "paths": {
+        "*": ["node_modules/*"] // Resolve modules in node_modules
+      },
+      "strict": true,
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "resolveJsonModule": true
+    },
+    "include": ["./src/**/*", "./declarations.d.ts"],
+    "exclude": ["./dist"]
+  }
+  
